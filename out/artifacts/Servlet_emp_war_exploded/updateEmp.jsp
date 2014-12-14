@@ -48,7 +48,7 @@
     Employee emp = (Employee) request.getAttribute("emp");
 %>
 <form action="modify.do" method="post" class="definewidth m20">
-    <input type="hidden" name="id" value="{$user.id}"/>
+
     <table class="table table-bordered table-hover definewidth m10">
         <tr>
             <td width="10%" class="tableleft">编号:</td>

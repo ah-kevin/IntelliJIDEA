@@ -86,7 +86,9 @@ public class actionServlet_emp extends HttpServlet {
             int age=Integer.parseInt(request.getParameter("age"));
             Employee emp =new Employee(id,name,salary,age);
             try {
-
+                EmployeeDAO dao=new EmployeeDAO();
+                dao.modify(emp);
+                response.sendRedirect("list.do");
             } catch (Exception e) {
                 e.printStackTrace();
             }
