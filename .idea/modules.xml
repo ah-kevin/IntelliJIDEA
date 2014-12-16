@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Servle_07_02/Servle_07_02.iml" filepath="$PROJECT_DIR$/Servle_07_02/Servle_07_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet/Servlet.iml" filepath="$PROJECT_DIR$/Servlet/Servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet_07/Servlet_07.iml" filepath="$PROJECT_DIR$/Servlet_07/Servlet_07.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet_emp/Servlet_emp.iml" filepath="$PROJECT_DIR$/Servlet_emp/Servlet_emp.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsp_01/jsp_01.iml" filepath="$PROJECT_DIR$/jsp_01/jsp_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
