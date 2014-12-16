@@ -62,10 +62,6 @@
       </td>
     </tr>
     <tr>
-      <td class="tableleft">角色</td>
-      <td>{$role_checkbox}</td>
-    </tr>
-    <tr>
       <td class="tableleft"></td>
       <td>
         <button type="submit" class="btn btn-primary" type="button">保存</button> &nbsp;&nbsp;

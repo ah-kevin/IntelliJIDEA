@@ -34,6 +34,8 @@ public class actionServlet_emp extends HttpServlet {
                 request.getRequestDispatcher("listemp.jsp").forward(request, response);
             } catch (Exception e) {
                 e.printStackTrace();
+                request.setAttribute("msg","系统繁忙");
+                request.getRequestDispatcher("err.jsp").forward(request,response);
             }
         } else if (uri.equals("/add")) {
             //获取表单数据封装成对象
@@ -52,6 +54,8 @@ public class actionServlet_emp extends HttpServlet {
                 response.sendRedirect("list.do");
             } catch (Exception e) {
                 e.printStackTrace();
+                //讲异常抛给容器
+                throw new  ServletException(e);
             }
 
         } else if (uri.equals("/del")) {

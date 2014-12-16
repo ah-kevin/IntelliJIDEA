@@ -31,6 +31,12 @@
     <option name="GROUP_BY_TYPE" value="true" />
     <option name="SORT_CHILDREN" value="false" />
     <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -38,11 +44,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="actionServlet_emp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java">
+      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet_07/src/dao/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1250" max-vertical-offset="2266">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="920">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet_07/src/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1680">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1418633772801" expanded="true" signature="604:641" placeholder="select * fro..t_user..." />
+                <marker date="1418633772801" expanded="true" signature="1480:1534" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regist.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet_07/web/regist.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1700">
+              <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Servlet_07/src/web/ActionServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26352128" vertical-offset="191" max-vertical-offset="1060">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,48 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateEmp.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Servlet_emp/web/updateEmp.jsp">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet_07/src/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5780822" vertical-offset="885" max-vertical-offset="2178">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listemp.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet_emp/web/listemp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1589" max-vertical-offset="2662">
-              <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addEmp.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1866" max-vertical-offset="2992">
-              <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1280">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-                <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-                <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-                <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-                <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,15 +128,27 @@
         <option value="$PROJECT_DIR$/Servlet_06/src/ActionServlet.java" />
         <option value="$PROJECT_DIR$/Servlet/web/a.jsp" />
         <option value="$PROJECT_DIR$/Servlet/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Servlet/src/ActionServlet.java" />
         <option value="$PROJECT_DIR$/Servlet_emp/src/dao/ActionServlet.java" />
         <option value="$PROJECT_DIR$/Servlet_emp/web/index.html" />
-        <option value="$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp" />
-        <option value="$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java" />
         <option value="$PROJECT_DIR$/Servlet_emp/web/edit.html" />
         <option value="$PROJECT_DIR$/Servlet_emp/web/listemp.jsp" />
-        <option value="$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java" />
         <option value="$PROJECT_DIR$/Servlet_emp/web/updateEmp.jsp" />
+        <option value="$PROJECT_DIR$/Servlet/src/ActionServlet.java" />
+        <option value="$PROJECT_DIR$/Servlet_emp/web/err.jsp" />
+        <option value="$PROJECT_DIR$/Servlet_emp/src/dao/DBUtil.java" />
+        <option value="$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp" />
+        <option value="$PROJECT_DIR$/Servlet_emp/web/err2.jsp" />
+        <option value="$PROJECT_DIR$/Servlet_emp/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java" />
+        <option value="$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/Servlet_07/src/entity/user.java" />
+        <option value="$PROJECT_DIR$/Servlet_07/src/dao/DBUtil.java" />
+        <option value="$PROJECT_DIR$/Servlet_07/src/entity/User.java" />
+        <option value="$PROJECT_DIR$/Servlet_07/src/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/Servlet_07/web/login.html" />
+        <option value="$PROJECT_DIR$/Servlet_07/web/regist.jsp" />
+        <option value="$PROJECT_DIR$/Servlet_07/src/web/ActionServlet.java" />
+        <option value="db-console:/7939b161/fc52ffbf-e26d-4e36-86de-bbdeb035beba/" />
       </list>
     </option>
   </component>
@@ -142,10 +166,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="114" />
-    <option name="width" value="1836" />
-    <option name="height" value="1313" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -284,6 +308,58 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideaProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideaProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Servlet_07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideaProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Servlet_07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideaProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp_01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -312,34 +388,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ideaProduct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ideaProduct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,25 +403,29 @@
     <property name="project.structure.side.proportion" value="0.312212" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Servlet/web/WEB-INF/lib" />
-    <property name="options.lastSelected" value="configurable.group.null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../文档,配置程序/ojdbc6.jar!/" />
+    <property name="options.lastSelected" value="database.main" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\IntelliJIDEA\Servlet_07\web" />
+      <recent name="E:\java\IntelliJIDEA\Servlet_07\web\WEB-INF" />
       <recent name="E:\learn\java\IntelliJIDEA\Servlet_emp\src" />
       <recent name="E:\learn\java\IntelliJIDEA\Servlet_emp\web" />
       <recent name="E:\learn\java\IntelliJIDEA\Servlet_emp\web\WEB-INF" />
-      <recent name="E:\learn\java\IntelliJIDEA\jsp_01\web\WEB-INF" />
-      <recent name="E:\learn\java\IntelliJIDEA\jsp_01\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat8">
@@ -652,6 +704,9 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -684,7 +739,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.9" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -702,6 +763,11 @@
         <artifact name="Servlet_emp:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/emp" />
+          </settings>
+        </artifact>
+        <artifact name="Servlet_07:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day07" />
           </settings>
         </artifact>
       </deployment>
@@ -803,7 +869,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Servlet_07:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
@@ -835,11 +905,13 @@
       <workItem from="1418567313121" duration="46000" />
       <workItem from="1418567369090" duration="1876000" />
       <workItem from="1418569261360" duration="162000" />
+      <workItem from="1418610177600" duration="18132000" />
+      <workItem from="1418636784522" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28494000" />
+    <option name="totallyTimeSpent" value="47039000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -862,26 +934,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="114" width="1836" height="1313" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985204" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3040089" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18862613" sideWeight="0.49826187" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18854283" sideWeight="0.50057936" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15458423" sideWeight="0.4976" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15437302" sideWeight="0.5024" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -890,9 +962,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24069265" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3040089" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -933,8 +1007,19 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jsp_01/src/dao/ActionServlet.java</url>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Servlet_07/src/web/ActionServlet.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -945,47 +1030,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1866" max-vertical-offset="2992">
-          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/listemp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2662">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2860">
           <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,7 +1039,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
           <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2662">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,14 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2860">
           <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,7 +1080,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
           <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2662">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,14 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2860">
           <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,7 +1121,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
           <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2662">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,14 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2860">
           <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,56 +1162,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
           <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="1408">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/listemp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2662">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2860">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsp_01/src/dao/ActionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1172,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="616">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,7 +1196,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="748">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,24 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../jdk1.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7290168" vertical-offset="3792" max-vertical-offset="75592">
-          <caret line="267" column="46" selection-start-line="267" selection-start-column="46" selection-end-line="267" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsp_01/src/dao/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13189448" vertical-offset="0" max-vertical-offset="1056">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../tomcat8.0.9/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34063926" vertical-offset="551" max-vertical-offset="5940">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1293,14 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet/src/ActionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsp_01/web/addEmp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="616">
@@ -1315,82 +1272,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1848">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsp_01/src/dao/ActionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="2684">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13095239" vertical-offset="0" max-vertical-offset="840">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55" vertical-offset="0" max-vertical-offset="1012">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.36753446" vertical-offset="0" max-vertical-offset="2560">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servlet_emp/web/listemp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1589" max-vertical-offset="2662">
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="1400" max-vertical-offset="2420">
           <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../tomcat8.0.9/lib/servlet-api.jar!/javax/servlet/http/HttpServletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1619632" vertical-offset="0" max-vertical-offset="2200">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1866" max-vertical-offset="2992">
-          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1418561346181" expanded="true" signature="541:560" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="1242:1292" placeholder="insert into ..." />
-            <marker date="1418561346181" expanded="true" signature="1827:1855" placeholder="delete from ..." />
-            <marker date="1418561346181" expanded="true" signature="2358:2388" placeholder="select * fro..t_emp..." />
-            <marker date="1418561346181" expanded="true" signature="3089:3138" placeholder="update t_emp..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1250" max-vertical-offset="2266">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servlet_emp/web/updateEmp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5780822" vertical-offset="885" max-vertical-offset="2178">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.1952381" vertical-offset="756" max-vertical-offset="1980">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/addEmp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85714287" vertical-offset="760" max-vertical-offset="1600">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/err2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="320">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/web/actionServlet_emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="2140">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40268457" vertical-offset="780" max-vertical-offset="2720">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/dao/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3785961" vertical-offset="51" max-vertical-offset="920">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/web/err.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30952382" vertical-offset="0" max-vertical-offset="840">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet/src/ActionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27617952" vertical-offset="0" max-vertical-offset="869">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_emp/src/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55235904" vertical-offset="0" max-vertical-offset="869">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/web/Css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1820">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1280">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/src/dao/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/下载/java静态/官方管理后台模板/Public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.586206" vertical-offset="813" max-vertical-offset="1380">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/src/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1680">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1418633772801" expanded="true" signature="604:641" placeholder="select * fro..t_user..." />
+            <marker date="1418633772801" expanded="true" signature="1480:1534" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/web/regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1700">
+          <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/7939b161/fc52ffbf-e26d-4e36-86de-bbdeb035beba/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4779412" vertical-offset="0" max-vertical-offset="544">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet_07/src/web/ActionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26352128" vertical-offset="191" max-vertical-offset="1060">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1413,7 +1463,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (Servlet)|Web</last-edited>
+          <last-edited>Web (Servlet_07)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1449,11 +1499,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Servlet_emp</last-edited>
+          <last-edited>Servlet_07</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.312212" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -23,6 +23,4 @@ public class ActionServlet extends HttpServlet {
         rd.forward(request,response);
 
     }
-
-
 }
